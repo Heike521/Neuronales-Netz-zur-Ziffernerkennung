@@ -51,3 +51,14 @@ pip install numpy pillow torchvision scikit-learn
 | 📁 CSV-Dateien       | Heatmap-Daten, Confusion-Matrix als Text            |
 | 📄 Projektbericht    | Automatisch erzeugte Projektdokumentation (TXT)     |
 
+---
+
+## 👩‍💻 Autorin & Projektstand
+
+**Autorin:** Heike Fasold  
+**Projekt:** Entwicklung eines neuronalen Netzes zur Ziffernerkennung  
+**Stand:** 26. Juli 2025  
+**Status:** ✅ abgeschlossen (funktionierendes Modell, Visualisierung, Dokumentation)
+
+ Ziel dieses Projekt war es, die mathematischen Grundlagen neuronaler Netze in 
+ Python zu verstehen und praktisch umzusetzen – ohne Einsatz vorgefertigter Deep-Learning-Frameworks.
