@@ -1,0 +1,55 @@
+============================================================
+📄 PROJEKTBERICHT – Ziffernerkennung mit Neuronalen Netzen
+============================================================
+
+🗓️ Datum:             26.07.2025
+👩 Autorin:           Heike Fasold
+💻 Projektname:       Neuronales Netz zur Ziffernerkennung
+📂 Quelle:            Projektarbeit-AI-Developement.py
+
+------------------------------------------------------------
+🧠 MODELLARCHITEKTUR
+------------------------------------------------------------
+Eingabeschicht:       784 Neuronen (28x28 Bildpixel)
+Verborgene Schicht:   300 Neuronen
+Ausgabeschicht:       10 Neuronen (Ziffern 0–9)
+Aktivierungsfunktion: Sigmoid
+Verlustfunktion:      Mean Squared Error (MSE)
+Optimierung:          Stochastic Gradient Descent (SGD)
+
+------------------------------------------------------------
+📊 TRAININGSKONFIGURATION
+------------------------------------------------------------
+Trainingsdaten:       56.000 Bilder
+Testdaten:            14.000 Bilder
+Epochen:              5
+Batch-Größe:          32
+Lernrate:             0.5
+Initialisierung:      Gleichverteilung [-0.5, 0.5]
+Zufallsstartwert:     42
+
+------------------------------------------------------------
+📈 TRAININGSERGEBNISSE (Letzte Epoche)
+------------------------------------------------------------
+Verlust (MSE):        0.014527
+Genauigkeit:          93.25 %
+
+------------------------------------------------------------
+🖼️ GENERIERTE VISUALISIERUNGEN
+------------------------------------------------------------
+✓ Fehlerkurve (loss_curve.png)
+✓ Genauigkeitskurve (accuracy_curve.png)
+✓ Gewichtsmatrix (weights_matrix.png)
+✓ Heatmap falsch klassifizierter Ziffern (heatmap_fehler/)
+✓ Confusion-Matrix (confusion_heatmap.png)
+✓ Beispielbilder mit Label-Overlay (mnist_bsp_train_labeled/*.png)
+
+------------------------------------------------------------
+📝 ABSCHLUSS
+------------------------------------------------------------
+Das entwickelte Feedforward-Netz erzielt eine solide Erkennungsrate auf dem
+MNIST-Datensatz – ohne Deep-Learning-Frameworks. Die Implementierung in reinem
+NumPy ermöglicht ein tiefes Verständnis der mathematischen Grundlagen neuronaler
+Netze. Erweiterungsideen: CNN, EMNIST-Zeichen, Data Augmentation, PyTorch-Vergleich.
+
+================================================================================
