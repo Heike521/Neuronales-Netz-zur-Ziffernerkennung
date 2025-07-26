@@ -1,18 +1,3 @@
-# ------------------------------------------------------------------------------
-# Dateiname: Projektarbeit-AI-Developement.py
-# Projekt: Projektarbeit - Neuronales Netz - Ziffern erkennen
-# Du arbeitest in einem Start-up, das sich auf digitale Bildverarbeitung
-# spezialisiert hat. Deine Aufgabe ist es, ein System zu entwickeln, das hand-
-# schriftliche Notizen erkennt und in digitale Texte umwandelt, um Prozesse in
-# Büros und Bildungseinrichtungen zu optimieren
-# 1: Datenaufbereitung und Verständnis
-# 2: Entwurf und Implementierung des neuronalen Netzwerks
-# 3: Training und Modellbewertung
-# 4: Optimierung und Feinjustierung
-# 5: Projektabschluss und Reflexion
-# Autor: Heike Fasold
-# Letzte Änderung: 02.07.2025
-# ------------------------------------------------------------------------------
 # Import der benötigten Module
 import numpy as np
 import os
